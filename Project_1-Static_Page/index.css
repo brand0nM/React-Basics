@@ -1,0 +1,65 @@
+body {
+	font-family: Inter;
+	color:white;	
+	background: #23252C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.profilePic{
+	height:285px;
+	width:285px;
+	object-fit: cover;
+	object-position: 100% 9%;
+}
+.mainContent{
+	width: 270px;
+	background: #1A1B21;
+	padding:3px 1px 3px 14px;	
+}
+.mainContent > h3{
+	color: #F3BF99;
+	font-size:12px
+}
+.mainContent > h2{
+	width: 242.71px;
+	height: 21px;
+	top: 535px;
+	left: 151px;
+}
+.mainContent > p{
+	font-size:10.24px;
+	width: 247px;
+	height: 61px;
+	top: 561px;
+	left: 151px;
+}
+
+h1 {
+	letter-spacing:+.025em;
+	font-size:25px
+}
+h4 {
+	width: 228px;
+	height:16px;
+	top:437px;
+	left:161px;
+	color:#F5F5F5;
+	font-size:10.24px;
+}
+.emailButton {
+	width: 247px;
+	height: Hug(34px);
+	top: 469px;
+	left:151px;
+	padding: 9px 13px 9px 11px;
+}
+footer {
+	width: 270px;
+	background: #161619;
+	padding:3px 1px 3px 14px;		
+}
+footer > input {
+	padding: 10px;
+	margin-left: 3.5px;
+}
