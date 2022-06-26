@@ -5,4 +5,4 @@ Static pages can be written in standard html, css, and javascript, but our goal 
 Use ReactDOM to update our html and render jsx components <br />
 <br />
 
-<img width="511" alt="Screen Shot 2022-06-26 at 3 38 42 PM" src="https://user-images.githubusercontent.com/79609464/175834726-552dcbf3-5396-4a5e-8bb0-3d4ccd833ca5.png">
+<img width="513" alt="Screen Shot 2022-06-26 at 3 51 23 PM" src="https://user-images.githubusercontent.com/79609464/175835071-c3b6c7c2-6f2a-44a7-9473-8cc4df2bd365.png">
