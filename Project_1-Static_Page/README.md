@@ -3,4 +3,6 @@
 Static pages can be written in standard html, css, and javascript, but our goal is to create a profile page using react
 ### Purpose
 Use ReactDOM to update our html and render jsx components <br />
-<img width="452" alt="Screen Shot 2022-06-26 at 2 18 35 PM" src="https://user-images.githubusercontent.com/79609464/175832365-d27c164f-0aaf-4eb2-ae27-e36a72b91b24.png">
+<br />
+
+<img width="511" alt="Screen Shot 2022-06-26 at 3 38 42 PM" src="https://user-images.githubusercontent.com/79609464/175834726-552dcbf3-5396-4a5e-8bb0-3d4ccd833ca5.png">
