@@ -4,7 +4,7 @@
 	font-style: normal;
 	padding: 0;
 	margin:0; 
-	background-color: rgba(11,34,64); 
+	background-color: rgba(103,160,252); 
 }
 header {
 	width: 100%;
@@ -25,7 +25,10 @@ header > * {
 	width: 50px;
 }
 .tilesList {
-	display:inline;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-wrap: wrap;
 }
 section {
 	margin: 12px;
@@ -33,9 +36,9 @@ section {
 	height: 600px; 
 	width: 480px;
 	display: inline-block;
-	background-color:rgba(11,34,64);	
-	color: white;
+	color: rgba(11,34,64);
 	text-align: center;
+	position:relative;
 }
 .tileImage {
 	align-items:top;
@@ -44,11 +47,11 @@ section {
 	border-radius: 13px;
 }
 a {
-	color: white;
+	color: rgba(11,34,64);
 	font-size: 10px;
 }
 .location {
-	color: rgba(254,190,109);
+	color: rgba(247,246,200);
 	font-weight: 400;
 	font-size: 10.24px;
 	line-height: 12px;
