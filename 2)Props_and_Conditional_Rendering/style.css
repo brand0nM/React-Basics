@@ -1,8 +1,10 @@
 * {
 	box-sizing: border-box;
 	font-family: Inter;
+	font-style: normal;
 	padding: 0;
 	margin:0; 
+	background-color: rgba(11,34,64); 
 }
 header {
 	width: 100%;
@@ -14,9 +16,54 @@ header {
 	font-weight: 500;
 	letter-spacing: -0.075em;
 }
+header > * {
+	background-color: transparent;
+}
 .globe {
 	padding: 2px;
 	margin: 2px; 
 	width: 50px;
 }
-
+.tilesList {
+	display:inline;
+}
+section {
+	margin: 12px;
+	padding: 7px;
+	height: 600px; 
+	width: 480px;
+	display: inline-block;
+	background-color:rgba(11,34,64);	
+	color: white;
+	text-align: center;
+}
+.tileImage {
+	align-items:top;
+	width: 400px;
+	height: 400px;
+	border-radius: 13px;
+}
+a {
+	color: white;
+	font-size: 10px;
+}
+.location {
+	color: rgba(254,190,109);
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 12px;
+	letter-spacing: 0.17em;
+}
+.city {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+}
+.date {
+	font-size: 13px;
+}
+.description{
+	width: 400px;
+	margin-left: 30px;
+	font-size: 90%;
+}

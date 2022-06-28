@@ -1,21 +1,22 @@
 import React from 'react'
 
 export default function Tiles(props){
-	let Image = `./Images/${props.imageUrl}`
+	let Image = `./Images/${props.imageUrl[0]}`
 	let badgeText
 	if (props.location !== 'USA'){
-		badgeText = props.location	
+		badgeText = 'Over Seas'	
 	}
 	return (
-		<section className='Tile'>
+		<section>
 			{badgeText && <div className='card-badge'>{badgeText}</div>}	
-			<img src={Image} alt=' ' />
+			<img src={Image} alt=' ' className='tileImage' />
 			<div>
-				<h2>{props.location}</h2>
+				<h1 className='location'>
+					<span className='city'> {props.title}</span>, {props.location}
+				</h1>
+				<h4 className='date'>{props.startDate} - {props.endDate}</h4>
 				<a href={props.googleMapsUrl}>View On Google Maps</a>
-				<h1>{props.title}</h1>
-				<h4>{props.startDate} - {props.startDate}</h4>
-				<p>{props.description}</p>
+				<p className='description'>{props.description}</p>
 			</div>
 		</section>	
 	)
