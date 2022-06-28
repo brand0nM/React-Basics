@@ -1,25 +1,22 @@
 import React from 'react'
-import NavBar from './Components/NavBar' 
-import Hero from './Components/Hero'
-import Card from './Components/Card'
-import cardData from './Data/data'
+import Header from './Components/Header'
+import Tile from './Components/Tiles'
+import tileData from './Data/data'
 
-export default function app() {
-	const Cards = cardData.map(function(card){
-		return(
-			<Card
-				{...card}
+export default function App(){
+	const Tiles = tileData.map(function(tile) {
+		return (
+			<Tile 
+				{...tile}
 			/>
 		)
 	})
-
 	return(
 		<div>
-			<NavBar />
-			<Hero />
-			<section className="cards-list">
-				{Cards}
-			</section>
+			<Header />
+			<div className='tilesList'>
+				{Tiles}
+			</div>
 		</div>
 	)
 }

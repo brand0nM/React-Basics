@@ -1,0 +1,15 @@
+.nav {
+    display: flex; /* show the results as inline list*/
+    justify-content: space-between;
+    align-items:  center;
+}
+.nav-logo {
+    width: 60px;
+}
+.nav-items {
+    list-style: none; /* Remove list markers */
+    display:  flex;
+}
+.nav-items > li {
+    padding:  10px; /* Space around words */
+} 
